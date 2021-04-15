@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dvs-Projects/Classic-Instagram-Clone-Backend.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -26,10 +26,6 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.3",
     "nodemon": "^2.0.7",
-    "socket.io": "^4.0.1"
-  },
-  "devDependencies": {
-    "@types/express": "^4.17.11",
-    "@types/jsonwebtoken": "^8.5.1"
+    "socket.io": "^3.1.0"
   }
 }
